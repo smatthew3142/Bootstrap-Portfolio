@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  overflow: auto;
+  background: #FFFFFF;
+  border-bottom: #CCCCCC solid 2px;
+  margin-bottom: 40px;
+}
+
+body {
+  background-image: url("../images/regal.png");
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+}
+
+h1, h2, h3{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+li {
+
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 35px;
+}
+
+li:nth-child(3) {
+  border-left: #CCCCCC solid 1px;
+  border-right: #CCCCCC solid 1px;
+}
+
+hr {
+  border: #DDDDDD;
+  background-color: #DDDDDD;
+  height: 4px;
+  margin-top: 25px;
+}
+
+p {
+  line-height: 2em;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    border: #CCCCCC solid 1px;
+}
+
+input {
+    margin-bottom: 10px;
+    font-size: 12px;
+
+}
+
+textarea {
+  height: 125px;
+
+}
+
+
+form {
+  margin-top: 20px;
+  
+}
+
+button {
+  background-color: #4AAAA5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+a:link, a:visited {
+  color: #777777;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4AAAA5;
+}
+
+
+
+footer {
+  clear: both;
+  width: 100%;
+  background: #666666;
+  border-top: #4AAAA5 solid 5px;
+  color: #DDDDDD;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 40px;
+
+}
+
+.name {
+  background: #4AAAA5;
+  padding: 30px;
+  margin: 0px;
+  float: left;
+}
+
+.name a{
+  color: #FFFFFF;
+}
+
+.wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -100px;
+  padding: 0 0 100px;
+}
+
+/*.navigation {
+  margin-top: 35px;
+  float: right;
+}*/
+
+.title {
+  color: #4AAAA5;
+  margin-top: 0;
+}
+
+.inside {
+  background: #FFFFFF;
+  border: #DDDDDD solid 1px;
+  margin: 0;
+  padding: 45px;
+  margin-bottom: 30px;
+}
+
+
+.panel {
+  background: #FFFFFF;
+  border: #DDDDDD solid 1px;
+}
+
+.panel img {
+  height: 70px;
+  width: 70px;
+}
+
+
+.panel hr {
+  height: 2px;
+}
+
+
+.note {
+  width: 250px;
+  text-align: center;
+  background: #4AAAA5;
+  opacity: 0.75;
+  color: #FFFFFF;
+  padding: 20px;
+  margin: 0px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.note:hover {
+
+  opacity: 1.0;
+}
+
+.note h2 {
+  font-weight: normal;
+}
+
+.copy, .wrap:after {
+  height: 100px;
+}
