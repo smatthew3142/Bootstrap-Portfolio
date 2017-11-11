@@ -196,18 +196,6 @@ footer {
   border: none;
 }
 
-@media screen and (max-width: 980px) {
-
-
-  .inside {
-    width: 55%;
-  }
-
-
-
-
-
-
 
 }
 
@@ -244,6 +232,14 @@ footer {
     width: 100%;
     text-align: center;
 
+  }
+
+  .inside img {
+    width: 100%;
+  }
+
+  .note {
+    width: 93%;
   }
 
  
