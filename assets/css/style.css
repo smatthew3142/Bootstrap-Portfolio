@@ -213,7 +213,21 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-   
+    .inside {
+    width: 100%;
+  }
+
+   .panel {
+    width: 100%;
+   }
+
+   .inside img{
+    width: 50%;
+   }
+
+   .note {
+    width: 50%;
+   }
 
 
 }
@@ -226,10 +240,12 @@ footer {
 
   }
 
-  .content{
+  .content {
     width: 100%;
     text-align: center;
 
   }
+
+ 
 
 }
