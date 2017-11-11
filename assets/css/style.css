@@ -4,7 +4,7 @@
 
 html, body {
   width: 100%;
-  height: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
 }
@@ -140,17 +140,6 @@ footer {
   color: #FFFFFF;
 }
 
-.wrap {
-  min-height: 100%;
-  height: auto;
-  margin: 0 auto -100px;
-  padding: 0 0 100px;
-}
-
-/*.navigation {
-  margin-top: 35px;
-  float: right;
-}*/
 
 .title {
   color: #4AAAA5;
@@ -209,12 +198,38 @@ footer {
 
 @media screen and (max-width: 980px) {
 
+
+  .inside {
+    width: 55%;
+  }
+
+
+
+
+
+
+
 }
 
 @media screen and (max-width: 768px) {
 
+   
+
+
 }
 
 @media screen and (max-width: 640px) {
+
+  .name {
+    width: 100%;
+    text-align:center;
+
+  }
+
+  .content{
+    width: 100%;
+    text-align: center;
+
+  }
 
 }
